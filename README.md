@@ -17,3 +17,10 @@ Notes:
 • Times and dates in the dataset are supplied in UTC and should be converted to SA time.
 • Consumption is split per session, i.e. for every session a subscriber has, there will be 1 record.
 • Any additional data that may assist in the presentation is welcomed
+
+
+Tools and Steps
+Miro
+Excel
+Databricks
+Powerpoint
