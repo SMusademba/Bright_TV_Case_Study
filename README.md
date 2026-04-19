@@ -25,6 +25,7 @@ Notes:
 - Databricks
 - Powerpoint
 - Claude
+<img width="276" height="585" alt="image" src="https://github.com/user-attachments/assets/c2be684c-080c-455e-bbfa-9319efe281a4" />
 
 <img width="491" height="639" alt="Screenshot 2026-04-19 132600" src="https://github.com/user-attachments/assets/99a84193-f9b3-4c68-a969-01c68d8ddcd5" />
 
