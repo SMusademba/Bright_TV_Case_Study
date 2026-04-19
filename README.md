@@ -26,6 +26,7 @@ Notes:
 - Powerpoint
 - Claude
 
+<img width="491" height="639" alt="Screenshot 2026-04-19 132600" src="https://github.com/user-attachments/assets/99a84193-f9b3-4c68-a969-01c68d8ddcd5" />
 
 **Process**
 1. Check excel csv file and check the kind of data being used and the columns we have to identify key information columns. 2 sheets/tables, split into 2 separate excel file tables. Explore data columns given based on the
