@@ -25,7 +25,13 @@ Notes:
 - Databricks
 - Powerpoint
 - Claude
-<img width="276" height="585" alt="image" src="https://github.com/user-attachments/assets/c2be684c-080c-455e-bbfa-9319efe281a4" />
+  
+**Planning Phase**
+<img width="980" height="618" alt="image" src="https://github.com/user-attachments/assets/5b721883-cd6e-4774-967a-6c6c1650ae8d" />
+<img width="951" height="543" alt="image" src="https://github.com/user-attachments/assets/c9bfb88f-0d7a-47f3-bdf6-b28a4e1aa087" />
+<img width="954" height="232" alt="image" src="https://github.com/user-attachments/assets/25ff8b28-5c15-4831-adf2-f20fc8cb3ceb" />
+<img width="963" height="456" alt="image" src="https://github.com/user-attachments/assets/06e3a9fa-4efc-478e-ba8f-7ef982e0ea70" />
+
 
 <img width="491" height="639" alt="Screenshot 2026-04-19 132600" src="https://github.com/user-attachments/assets/99a84193-f9b3-4c68-a969-01c68d8ddcd5" />
 
