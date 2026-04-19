@@ -19,8 +19,63 @@ Notes:
 • Any additional data that may assist in the presentation is welcomed
 
 
-Tools and Steps
-Miro
-Excel
-Databricks
-Powerpoint
+**Tools and Steps**
+- Miro
+- Excel
+- Databricks
+- Powerpoint
+- Claude
+
+
+**Process**
+1. Check excel csv file and check the kind of data being used and the columns we have to identify key information columns. 2 sheets/tables, split into 2 separate excel file tables. Explore data columns given based on the
+   Objectives.
+2. ETL Phase
+   - Upload two tables into Workspace Database, Created schema for Bright TV and add two tables.
+   - Created GIT folders and Pushed to Github for version control and backup for team collaboration and transparency.
+3. Used LEFT JOIN and Viewership table as Left table as not all columns are relevant from User_Profile table.
+4. Checked for NULL Values
+    - used IS NOT NULL
+    - had to replace empty spaces using COALESCE.
+    - Did not use dummy values as the 'OTHER/NONE' rows or unclassified data can give us an indication of how we want to better set up our subscriber information capture using compulsory fields to ensure better data quality and detailed data in the future.
+5. **Viewership Table:**
+     RecordDate2 column
+      - a. CASE Statement for timebands.
+      - b. Min/Max Statements to check data period range.
+      - c. CASE Statement for splitting weekend and weekday viewing.
+      - d. Date Functions to derive month name, day name.
+    
+      Duration column
+      - Important to track most watched channels and
+      - Combine to also see average watch time of viewers tracking which gender, age group
+      -  Tracking their watching trends to better plan content rights we need as well as content not in demand.
+
+    **User profile Table:** 
+     Gender column
+       - Group viewing per gender and checking viewing numbers based on gender to plan viewing options for the future.
+     Age Column
+       - CASE Statement different age groups of viewers.
+     Race column 
+       - Check racial mix of viewers.
+     Province column
+       - Geographical profiling and classification in terms of provinces with more potential or lacking viewership numbers and subscribers.
+6. Extract final data query into csv file.
+     - Checked if extraction was successful
+     - Created table
+     - Created various pivot tables in new sheet.
+     - Created various charts fromt the pivot tables
+     - Used Claude/Lovable to get preliminary data insights and Slide Deck creation from the created charts created.
+7. Key Insights
+     -  Total Sessions 9,995 over Three(3) full months Jan - Mar 2016 (Apr 1st because of UTC to SAST Conversion)
+     -  1.522/3 depending on rounding total watch hours > over 63 full days over viewing
+     -  21 channel offering with Average watch time of 9.1 minutes
+     -  88% of audience is male and 36% of viewing is located in Gauteng Province.
+     -  Majority of viewing is from Young Adult group which is 20-35 age group, and 69% watch time is skimming through channels which is less than 5 minutes of watch time.
+     -  Sporting viewing dominated by male viewership delivers majority of viewing time.
+  
+   Recommendations
+     - Increase Female audience viewership by improving content targeting lifestyle and reality TV
+     - Target after school youth viewing programming
+     - For senior viewers improve User Interface for ease of use 
+     - Continue acquisition of live sporting events
+     - Geographic expansion in NC/FS can partner with Internet Service Providers to provide affordable viewing and internet package to allow device viewing and online viewing
